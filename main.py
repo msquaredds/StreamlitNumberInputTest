@@ -12,7 +12,7 @@ def main():
                 key = "main_input_key"
                 user_number = st.number_input(
                     '', value=100.0, step=0.1,
-                    format="%0.1f", key=key,
+                    key=key,
                     label_visibility='collapsed')
 
 
