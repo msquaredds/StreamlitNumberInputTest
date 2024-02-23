@@ -9,10 +9,8 @@ def main():
             with row_cols[0]:
                 # set a key so the text_inputs don't clash and
                 # we can access them later if necessary
-                key = "main_input_key"
                 user_number = st.number_input(
                     '', value=100.0, step=0.1,
-                    key=key,
                     label_visibility='collapsed')
 
 
