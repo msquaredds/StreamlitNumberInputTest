@@ -8,7 +8,7 @@ def main():
             row_cols = st.columns(3)
             with row_cols[0]:
                 user_number = st.number_input(
-                    '', value=100.0, step=0.1)
+                    '', value=100.0)
 
 
 if __name__ == '__main__':
